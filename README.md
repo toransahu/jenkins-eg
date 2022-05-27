@@ -27,6 +27,20 @@ $ docker run -p 8080:8080 -p 50000:50000 -v ~/:/var/jenkins_home jenkins/jenkins
 
 - https://www.jenkins.io/doc/pipeline/tour/hello-world/#examples
 
+## Write `Jenkinsfile`
+
+## Create MultiBranchPipeline object in Jenkins Web
+
+## (optional) Docker agent based Pipeline
+- Install 2 plugins: Docker plugin and Docker Pipeline
+
+## Mention Source
+- Git (git clone URL)
+- Github (Github URL)
+- etc.
+
+## Save
+
 # Run
 
 
