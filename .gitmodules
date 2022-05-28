@@ -1,0 +1,3 @@
+[submodule "kedro-eg"]
+	path = kedro-eg
+	url = https://github.com/toransahu/kedro-eg
