@@ -19,7 +19,7 @@ pipeline {
                     python -m pip install --user virtualenv
                     python -m virtualenv .venv
                     . .venv/bin/activate
-                    python -m pip install --user -r src/requirements.txt
+                    python -m pip install -r src/requirements.txt
                     python -m pytest
                 '''
             }
