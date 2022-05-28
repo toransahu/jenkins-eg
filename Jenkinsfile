@@ -4,7 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 sh '''
-                    who
+                    ls -l /
+                    su -
                     ls -l /
                     python --version
                     pwd
