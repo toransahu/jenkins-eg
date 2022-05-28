@@ -136,5 +136,12 @@ fatal: Could not read from remote repository.
 
 - add your public key which is added in git host, thats all
 
+# Plugins
+- Gerrit
+    - https://plugins.jenkins.io/gerrit-trigger/
+    - https://plugins.jenkins.io/gerrit-code-review/
+
 # Ref
 - https://github.com/shazChaudhry/docker-jenkins/blob/ee0f386fd1706829b956cb2e723c0f2935496933/Dockerfile
+- [Using docker with Pipeline](https://www.jenkins.io/doc/book/pipeline/docker/)
+
