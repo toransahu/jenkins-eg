@@ -7,6 +7,12 @@ pipeline {
                     python --version
                     pwd
                     ls
+                    cd kedro-eg
+                    pythom -m pip install venv
+                    python -m venv .venv
+                    . .venv/bin/activate
+                    pip install -r src/requirements.txt
+                    pytest
                 '''
             }
         }
