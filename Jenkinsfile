@@ -8,8 +8,8 @@ pipeline {
                     pwd
                     ls
                     cd kedro-eg
-                    python -m pip install venv
-                    python -m venv .venv
+                    python -m pip install virtualenv
+                    python -m virtualenv .venv
                     . .venv/bin/activate
                     pip install -r src/requirements.txt
                     pytest
